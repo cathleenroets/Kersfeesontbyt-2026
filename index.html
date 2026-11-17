@@ -1,0 +1,1020 @@
+
+<!DOCTYPE html>
+<html lang="af">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="theme-color" content="#07162d">
+    <meta name="description" content="Jy word hartlik uitgenooi na ’n magiese Kersfeesontbyt op 25 Desember 2026.">
+
+    <title>Kersfeesontbyt 2026 | ’n Magiese Kersfeeskuier</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Hoofstylblad -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- =====================================
+         AGTERGROND EN ATMOSFEER
+    ====================================== -->
+
+    <div class="background-scene" aria-hidden="true">
+
+        <div class="background-glow"></div>
+
+        <div class="stars">
+            <span>✦</span>
+            <span>✧</span>
+            <span>·</span>
+            <span>✦</span>
+            <span>✧</span>
+            <span>·</span>
+            <span>✦</span>
+            <span>✧</span>
+        </div>
+
+        <div class="background-snow" id="backgroundSnow"></div>
+
+    </div>
+
+
+    <!-- =====================================
+         MUSIEKBEHEER
+    ====================================== -->
+
+    <button
+        class="music-control"
+        id="musicToggle"
+        type="button"
+        aria-label="Skakel sagte klankeffekte aan of af"
+        aria-pressed="false">
+
+        <span class="music-icon">♫</span>
+        <span id="musicLabel">Klankeffekte af</span>
+
+    </button>
+
+
+    <!-- =====================================
+         HOOFERVARING
+         TONEEL 1: DIE SNEEUBOL
+    ====================================== -->
+
+    <main id="mainExperience">
+
+        <section
+            class="scene snowglobe-scene active"
+            id="snowglobeScene"
+            aria-labelledby="snowglobeTitle">
+
+            <div class="snowglobe-content">
+
+                <p class="eyebrow">Jy is hartlik uitgenooi</p>
+
+                <h1 id="snowglobeTitle" class="snowglobe-title">
+                    'n Bietjie Kersfees-magie
+                    <span>wag binne ...</span>
+                </h1>
+
+
+                <!-- INTERAKTIEWE SNEEUBOL -->
+
+                <div class="snowglobe-container">
+
+                    <button
+                        class="snowglobe"
+                        id="snowglobe"
+                        type="button"
+                        aria-label="Skud die sneeubol om jou Kersfeesuitnodiging te ontdek">
+
+                        <div class="snowglobe-glass">
+
+                            <div class="globe-reflection"></div>
+
+                            <div class="globe-moon"></div>
+
+                            <div class="globe-village">
+
+                                <div class="village-mountains"></div>
+
+                                <div class="village-hill"></div>
+
+                                <div class="village-house">
+
+                                    <div class="house-roof"></div>
+
+                                    <div class="house-body">
+
+                                        <div class="house-window"></div>
+                                        <div class="house-door"></div>
+                                        <div class="house-window"></div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="village-tree tree-one"></div>
+                                <div class="village-tree tree-two"></div>
+                                <div class="village-tree tree-three"></div>
+
+                                <div class="village-path"></div>
+
+                            </div>
+
+                            <!-- Sneeu binne die bol -->
+
+                            <div
+                                class="globe-snow"
+                                id="globeSnow"
+                                aria-hidden="true">
+                            </div>
+
+                            <div class="globe-sparkles"></div>
+
+                        </div>
+
+                        <div class="snowglobe-neck"></div>
+
+                        <div class="snowglobe-base">
+
+                            <span>’N KERSFEESKUier OM TE ONTHOU</span>
+
+                        </div>
+
+                    </button>
+
+                </div>
+
+
+                <p class="globe-instruction" id="globeInstruction">
+
+                    Tik op die sneeubol of skud jou foon om die sneeu te laat dwarrel.
+
+                </p>
+
+                <p class="globe-subinstruction">
+
+                    Elke tik of skud laat nog sneeu en sprankels dwarrel.
+
+                </p>
+<button
+                    class="reveal-button"
+                    id="revealInvitation"
+                    type="button">
+
+                    Ontdek jou uitnodiging
+                    <span>✧</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 2: DIE UITNODIGING
+        ====================================== -->
+
+        <section
+            class="scene invitation-scene"
+            id="invitationScene"
+            aria-labelledby="invitationTitle"
+            hidden>
+
+            <div class="invitation-card">
+
+                <div class="invitation-decoration top-decoration">
+                    ✧ ❄ ✧
+                </div>
+
+                <p class="eyebrow">Met liefde genooi</p>
+
+                <h2 id="invitationTitle">
+
+                    Jy is uitgenooi na
+
+                    <span class="invitation-event">
+                        ons Kersfeesontbyt
+                    </span>
+
+                </h2>
+
+                <div class="invitation-divider">
+                    <span>✦</span>
+                </div>
+
+                <p class="invitation-message">
+
+                    Ons nooi jou graag na 'n spesiale
+                    Kersfeesontbyt waar ons in 'n atmosfeer
+                    van warmte, vrede en vreugde saam kan kuier.
+
+                    Kom geniet lekker kos, goeie geselskap
+                    en die mooi betekenis van hierdie feestyd.
+
+                </p>
+
+                <p class="invitation-signature">
+
+                    Met liefde,
+
+                    <span>Jou gasheerfamilie</span>
+
+                </p>
+
+                <button
+                    class="continue-button"
+                    type="button"
+                    data-next="detailsScene">
+
+                    Ontdek die besonderhede
+                    <span>↓</span>
+
+                </button>
+
+                <div class="invitation-decoration bottom-decoration">
+                    ✧ ❄ ✧
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 3: DATUM, TYD EN PLEK
+        ====================================== -->
+
+        <section
+            class="scene details-scene"
+            id="detailsScene"
+            aria-labelledby="detailsTitle"
+            hidden>
+
+            <div class="section-container">
+
+                <p class="eyebrow">Merk dit in jou dagboek</p>
+
+                <h2 id="detailsTitle" class="section-title">
+
+                    Kom vier
+                    <span>saam met ons.</span>
+
+                </h2>
+
+
+                <div class="details-grid">
+
+                    <!-- DATUM -->
+
+                    <article class="detail-card">
+
+                        <div class="detail-icon">✧</div>
+
+                        <p class="detail-label">DATUM</p>
+
+                        <h3>25 Desember</h3>
+
+                        <p>Vrydag 2026</p>
+
+                    </article>
+
+
+                    <!-- TYD -->
+
+                    <article class="detail-card">
+
+                        <div class="detail-icon">◷</div>
+
+                        <p class="detail-label">TYD</p>
+
+                        <h3>09:00</h3>
+
+                        <p>Kom kuier saam oor ontbyt</p>
+
+                    </article>
+
+
+                    <!-- PLEK -->
+
+                    <article class="detail-card">
+
+                        <div class="detail-icon">⌖</div>
+
+                        <p class="detail-label">PLEK</p>
+
+                        <h3>168 Hornsnek</h3>
+
+                        <p>
+                            Plot 82, Strydfontein,
+                            Akasia
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <a
+                    class="map-button"
+                    href="https://www.google.com/maps/search/?api=1&query=168+Hornsnek%2C+Plot+82%2C+Strydfontein%2C+Akasia"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Kry aanwysings
+                    <span>↗</span>
+
+                </a>
+
+
+                <button
+                    class="continue-button"
+                    type="button"
+                    data-next="countdownScene">
+
+                    Hoe lank nog?
+                    <span>↓</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 4: KERSFEESAFTELLING
+        ====================================== -->
+
+        <section
+            class="scene countdown-scene"
+            id="countdownScene"
+            aria-labelledby="countdownTitle"
+            hidden>
+
+            <div class="section-container">
+
+                <p class="eyebrow">Die aftelling het begin</p>
+
+                <h2 id="countdownTitle" class="section-title">
+
+                    Tot Kersfees
+                    <span>oorbly ...</span>
+
+                </h2>
+
+
+                <div class="countdown-container">
+
+                    <div class="countdown-item">
+
+                        <strong id="days">00</strong>
+
+                        <span>Dae</span>
+
+                    </div>
+
+
+                    <div class="countdown-item">
+
+                        <strong id="hours">00</strong>
+
+                        <span>Ure</span>
+
+                    </div>
+
+
+                    <div class="countdown-item">
+
+                        <strong id="minutes">00</strong>
+
+                        <span>Minute</span>
+
+                    </div>
+
+
+                    <div class="countdown-item">
+
+                        <strong id="seconds">00</strong>
+
+                        <span>Sekondes</span>
+
+                    </div>
+
+                </div>
+
+
+                <p class="countdown-message" id="countdownMessage">
+
+                    Ons kan nie wag om saam met jou Kersfees te vier nie!
+
+                </p>
+
+
+                <button
+                    class="continue-button"
+                    type="button"
+                    data-next="rsvpScene">
+
+                    Bevestig jou bywoning
+                    <span>↓</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 5: RSVP
+        ====================================== -->
+
+        <section
+            class="scene rsvp-scene"
+            id="rsvpScene"
+            aria-labelledby="rsvpTitle"
+            hidden>
+
+            <div class="section-container rsvp-container">
+
+                <p class="eyebrow">Ons sien uit om jou te sien</p>
+
+                <h2 id="rsvpTitle" class="section-title">
+
+                    Laat weet ons
+                    <span>asseblief.</span>
+
+                </h2>
+
+                <p class="rsvp-intro">
+
+                    Voltooi asseblief die kort vorm
+                    voor <strong>15 Desember 2026</strong>.
+
+                    Ons gebruik jou antwoorde om die
+                    oggend mooi te beplan.
+
+                </p>
+
+
+                <form id="rsvpForm" class="rsvp-form">
+
+
+                    <!-- RSVP STAP 1 -->
+
+                    <div class="form-step active" data-step="1">
+
+                        <p class="form-progress">
+                            DEEL 1 VAN 3
+                        </p>
+
+                        <h3>Wie kom kuier?</h3>
+
+                        <div class="form-group">
+
+                            <label for="familyName">
+                                Naam en van
+                            </label>
+
+                            <input
+                                type="text"
+                                id="familyName"
+                                name="familyName"
+                                autocomplete="name"
+                                maxlength="120"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="attendees">
+                                Hoeveel mense kom saam?
+                            </label>
+
+                            <input
+                                type="number"
+                                id="attendees"
+                                name="attendees"
+                                min="1"
+                                max="30"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="guestNames">
+                                Name van die ander gaste
+                            </label>
+
+                            <textarea
+                                id="guestNames"
+                                name="guestNames"
+                                rows="2"
+                                maxlength="500"></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="form-next-button"
+                            data-form-next>
+
+                            Volgende
+                            <span>→</span>
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- RSVP STAP 2 -->
+
+                    <div class="form-step" data-step="2" hidden>
+
+                        <p class="form-progress">
+                            DEEL 2 VAN 3
+                        </p>
+
+                        <h3>Vertel ons 'n bietjie meer</h3>
+
+
+                        <div class="form-group">
+
+                            <label for="foodNotes">
+
+                                Enige allergieë of kosvoorkeure?
+
+                            </label>
+
+                            <textarea
+                                id="foodNotes"
+                                name="foodNotes"
+                                rows="2"
+                                maxlength="700"></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="memory">
+
+                                Wat is een lekker, snaakse of
+                                onvergeetlike ding wat in julle
+                                gesin in 2026 gebeur het?
+
+                            </label>
+
+                            <textarea
+                                id="memory"
+                                name="memory"
+                                rows="3"
+                                maxlength="700"></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="tease">
+
+                                Waarvoor terg julle mekaar
+                                gewoonlik?
+
+                            </label>
+
+                            <textarea
+                                id="tease"
+                                name="tease"
+                                rows="2"
+                                maxlength="500"></textarea>
+
+                        </div>
+
+
+                        <div class="form-navigation">
+
+                            <button
+                                type="button"
+                                class="form-back-button"
+                                data-form-back>
+
+                                ← Terug
+
+                            </button>
+
+                            <button
+                                type="button"
+                                class="form-next-button"
+                                data-form-next>
+
+                                Volgende
+                                <span>→</span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- RSVP STAP 3 -->
+
+                    <div class="form-step" data-step="3" hidden>
+
+                        <p class="form-progress">
+                            DEEL 3 VAN 3
+                        </p>
+
+                        <h3>Die laaste paar besonderhede</h3>
+
+
+                        <div class="form-group">
+
+                            <label for="nomination">
+
+                                Wie verdien volgens julle 'n
+                                spesiale, vriendelike toekenning,
+                                en hoekom?
+
+                            </label>
+
+                            <textarea
+                                id="nomination"
+                                name="nomination"
+                                rows="2"
+                                maxlength="500"></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="wish">
+
+                                Wat is julle Kerswens vir
+                                almal in 2027?
+
+                            </label>
+
+                            <textarea
+                                id="wish"
+                                name="wish"
+                                rows="2"
+                                maxlength="500"></textarea>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="photos">
+
+                                Deel tot tien gunstelingfoto's
+                                van julle 2026 (opsioneel)
+
+                            </label>
+
+                            <input
+                                type="file"
+                                id="photos"
+                                name="photos"
+                                accept="image/jpeg,image/png,image/webp"
+                                multiple>
+
+                            <small>
+                                Maksimum tien foto's. Foto's word verklein vir vinniger oplaai en privaat bewaar.
+                            </small>
+
+                            <div
+                                id="photoNames"
+                                class="file-names"
+                                aria-live="polite">
+                            </div>
+
+                        </div>
+
+
+                        <label class="consent-option">
+
+                            <input
+                                type="checkbox"
+                                id="photoConsent"
+                                name="photoConsent">
+
+                            <span>
+                                Ek bevestig dat ek toestemming
+                                het om hierdie foto's te deel
+                                en dat dit vir die Kersfeesviering
+                                bewaar mag word.
+                            </span>
+
+                        </label>
+
+
+                        <div class="form-navigation">
+
+                            <button
+                                type="button"
+                                class="form-back-button"
+                                data-form-back>
+
+                                ← Terug
+
+                            </button>
+
+                            <button
+                                type="submit"
+                                class="form-submit-button"
+                                id="submitButton">
+
+                                Stuur my RSVP
+                                <span>✧</span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- RSVP TERUGVOER -->
+
+                    <div
+                        class="form-status"
+                        id="formStatus"
+                        role="status"
+                        aria-live="polite">
+                    </div>
+
+                </form>
+
+                <p class="privacy-note">
+
+                    Jou besonderhede en foto's is nie
+                    publiek sigbaar nie.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 6: KERSWENSBOOM
+        ====================================== -->
+
+        <section
+            class="scene wishes-scene"
+            id="wishesScene"
+            aria-labelledby="wishesTitle"
+            hidden>
+
+            <div class="section-container">
+
+                <p class="eyebrow">Klein wense, groot betekenis</p>
+
+                <h2 id="wishesTitle" class="section-title">
+
+                    'n Wens vir
+                    <span>2027.</span>
+
+                </h2>
+
+                <p class="wishes-intro">
+
+                    Kersfees is ook 'n tyd om stil te staan
+                    by dit waarop ons hoop.
+
+                    Mag die nuwe jaar vir ons almal
+                    iets besonders inhou.
+
+                </p>
+
+
+                <div class="wishing-tree-container">
+
+                    <div class="wishing-tree" aria-hidden="true">
+
+                        <div class="tree-star">✦</div>
+
+                        <div class="tree-layer layer-one"></div>
+                        <div class="tree-layer layer-two"></div>
+                        <div class="tree-layer layer-three"></div>
+
+                        <div class="tree-trunk"></div>
+
+                        <div class="tree-lights">
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                            <span>●</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <p class="wishes-closing">
+
+                    Saam maak ons die mooiste herinneringe.
+
+                </p>
+
+
+                <button
+                    class="continue-button"
+                    type="button"
+                    data-next="closingScene">
+
+                    Gaan voort
+                    <span>↓</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             TONEEL 7: AFSLUITING
+        ====================================== -->
+
+        <section
+            class="scene closing-scene"
+            id="closingScene"
+            aria-labelledby="closingTitle"
+            hidden>
+
+            <div class="closing-content">
+
+                <div class="closing-snowflake">❄</div>
+
+                <p class="eyebrow">
+                    Tot ons mekaar sien
+                </p>
+
+                <h2 id="closingTitle">
+
+                    Mag hierdie Kersfees
+                    gevul wees met
+
+                    <span>
+                        vrede, liefde en vreugde.
+                    </span>
+
+                </h2>
+
+                <div class="closing-divider">
+                    ✧ ❄ ✧
+                </div>
+
+                <p class="closing-signature">
+
+                    Met liefde,
+
+                    <strong>Die gasheerfamilie</strong>
+
+                </p>
+
+
+                <a
+                    class="whatsapp-link"
+                    href="https://wa.me/27824459064?text=Hallo%2C%20ek%20wil%20graag%20navraag%20doen%20oor%20die%20Kersfeesontbyt."
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Kontak ons via WhatsApp
+                    <span>↗</span>
+
+                </a>
+
+
+                <button
+                    class="restart-button"
+                    id="restartExperience"
+                    type="button">
+
+                    Beleef die magie weer
+                    <span>↻</span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         NAVIGASIE TUSSEN AFDELINGS
+    ====================================== -->
+
+    <nav
+        class="scene-navigation"
+        id="sceneNavigation"
+        aria-label="Uitnodiging-afdelings"
+        hidden>
+
+        <button
+            type="button"
+            class="nav-dot active"
+            data-scene="invitationScene"
+            aria-label="Uitnodiging">
+        </button>
+
+        <button
+            type="button"
+            class="nav-dot"
+            data-scene="detailsScene"
+            aria-label="Besonderhede">
+        </button>
+
+        <button
+            type="button"
+            class="nav-dot"
+            data-scene="countdownScene"
+            aria-label="Aftelling">
+        </button>
+
+        <button
+            type="button"
+            class="nav-dot"
+            data-scene="rsvpScene"
+            aria-label="RSVP">
+        </button>
+
+        <button
+            type="button"
+            class="nav-dot"
+            data-scene="wishesScene"
+            aria-label="Kerswense">
+        </button>
+
+        <button
+            type="button"
+            class="nav-dot"
+            data-scene="closingScene"
+            aria-label="Afsluiting">
+        </button>
+
+    </nav>
+
+
+
+    <!-- =====================================
+         VOETSkrif
+    ====================================== -->
+
+    <footer class="site-footer">
+
+        <span>
+            KERSFEESONTBYT · 2026
+        </span>
+
+        <span>
+            Gemaak met 'n bietjie Kersfees-magie ✦
+        </span>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
