@@ -1,5 +1,5 @@
 // Voeg die gepubliseerde Google Apps Script-webprogram-URL hier in nadat jy die opstelling voltooi het.
-const RSVP_ENDPOINT = "PLAK_JOU_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HIER";
+const RSVP_ENDPOINT = "https://script.google.com/macros/s/AKfycbzPYztgq2JJbRP9YkfjQFUFfMfJ2SS8CKtSr3bqhTXsKLzBISWVIXswJLYv2-4lTGP6/exec";
 
 const globe = document.getElementById("snowGlobe");
 const snowLayer = document.getElementById("globeSnow");
